@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Code Refactor Horiseon</title>
 </head>
 
 <body>
+    <!-- header and navigation at the top of the page that allows you to navigate through the website without scrolling -->
     <div class="header">
+        <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -23,10 +25,16 @@
                 </li>
             </ul>
         </div>
+    </header>
+    <!-- background image information -->
     </div>
-    <div class="hero"></div>
+    
+    <div class="bg-image"></div>
+    <!-- main content -->
     <div class="content">
-        <div class="search-engine-optimization">
+        <main>
+    <!-- id assist with defining a unique id for each div element -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -47,34 +55,39 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
+    </main>
     </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+    <!-- utilized aside tag for side bar and tagged sections and class working with multiple html elements-->
+    <aside class="benefits">
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+
+        <section class="benefit-brand">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </aside>
+    <!-- footer information for bottom of webpage, changed year to 2023 since this is the last time the webpage has been updated -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+            &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
     </div>
 </body>
